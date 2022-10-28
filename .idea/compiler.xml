@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sprint_1" />
         <module name="oplossing" />
+        <module name="ProjectRubicsCube" />
         <module name="view_model_sprint_1_start" />
         <module name="view_model_sprint_1_start_zonder_hints" />
         <module name="oplossing_view_model_sprint_1" />
