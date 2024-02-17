@@ -6,6 +6,7 @@ import javafx.scene.paint.Color;
 
 
 public class FaceView implements IFace {
+    public final static String[] COLORS = new String[] { "RED", "GREEN", "BLUE", "YELLOW", "ORANGE", "WHITE" };
     private final Color color;
     private final Point3D[] corners;
 
@@ -19,6 +20,11 @@ public class FaceView implements IFace {
             case "WHITE" -> Color.WHITE;
             default -> Color.BLACK;
         };
+        this.corners = corners;
+    }
+
+    public FaceView(Color color, Point3D[] corners) {
+        this.color = color;
         this.corners = corners;
     }
 
